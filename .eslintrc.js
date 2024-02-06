@@ -4,7 +4,10 @@ module.exports = {
   ignorePatterns: ['**/payload-types.ts'],
   plugins: ['prettier'],
   rules: {
-    'prettier/prettier': ['error', { endOfLine: 'auto' }, { singleQuote: true, parser: 'flow' }],
+    'prettier/prettier': ['error', , { endOfLine: 'auto' }, {
+      "singleQuote": true,
+      "parser": "flow"
+    }],
     'no-console': 'off',
   },
 }
