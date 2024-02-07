@@ -1,12 +1,12 @@
 'use client'
 import React from 'react'
 import { usePathname } from 'next/navigation'
-import { inclusions, noHeaderFooterUrls, profileNavItems } from '../../../constants'
+import { inclusions, noHeaderFooterUrls, } from '../../../constants'
 import { Gutter } from '../../Gutter'
 import Image from 'next/image'
 import classes from './index.module.scss'
 import Link from 'next/link'
-import { Footer } from '../../../../payload/payload-types'
+import { Footer, Media } from '../../../../payload/payload-types'
 import { Button } from '../../Button'
 
 const FooterComponent = ({ footer }: { footer: Footer }) => {
@@ -43,7 +43,7 @@ const FooterComponent = ({ footer }: { footer: Footer }) => {
                         <p>{footer.copywright}</p>
                         <div className={classes.socialLinks}>
                             {navItems.map((item) => {
-                                const icon = '';
+                                const icon = item?.link?.icon as Media;
 
                                 return (
                                     <Button
@@ -52,7 +52,18 @@ const FooterComponent = ({ footer }: { footer: Footer }) => {
                                         href={item.link.url}
                                         newTab={true}
                                         className={classes.socialLinkItem}
-                                    />
+                                    >
+                                        {/* // icon is there but not showing, fix later */}
+                                        <Image
+                                            fill
+                                            src={icon?.url}
+                                            alt={item.link.label}
+                                            className={classes.socialIcon}
+
+
+                                        />
+
+                                    </Button>
                                 )
                             })}
                         </div>

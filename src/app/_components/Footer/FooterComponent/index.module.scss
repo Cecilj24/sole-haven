@@ -18,15 +18,15 @@
     grid-template-columns: repeat(4, 1fr);
     margin: 100px 0;
 
-    large-break {
+    @include large-break {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    mid-break {
+    @include mid-break {
         margin: 60px 0;
     }
 
-    extra-small-break {
+    @include extra-small-break {
         grid-template-columns: 1fr;
     }
 }
@@ -69,6 +69,7 @@
 .socialLinks {
     display: flex;
     gap: 20px;
+
 }
 
 .socialLinkItem {
@@ -78,6 +79,8 @@
 .socialIcon {
     width: 24px;
     height: 24px;
+    display: flex;
+
 }
 
 .hide {
