@@ -1,4 +1,5 @@
 'use client'
+
 import React from 'react'
 import { usePathname } from 'next/navigation'
 import { inclusions, noHeaderFooterUrls, } from '../../../constants'
@@ -9,6 +10,7 @@ import Link from 'next/link'
 import { Footer, Media } from '../../../../payload/payload-types'
 import { Button } from '../../Button'
 
+// Come back to this page and investigate the hook problems
 const FooterComponent = ({ footer }: { footer: Footer }) => {
     const pathname = usePathname()
     const navItems = footer?.navItems || [];
