@@ -186,7 +186,7 @@ export const CollectionArchive: React.FC<Props> = props => {
           {results.docs?.map((result, index) => {
             if (typeof result === 'object' && result !== null) {
               return (
-                <Card doc={result} relationTo={relationTo} showCategories />
+                <Card key={index} doc={result} relationTo={relationTo} showCategories />
               )
             }
 
