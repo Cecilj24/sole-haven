@@ -39,7 +39,7 @@ const FooterComponent = ({ footer }: { footer: Footer }) => {
                 <Gutter>
                     <div className={classes.wrap}>
                         <Link href="/">
-                            <Image src="/Logo-white.png" alt="logo" width={170} height={30} />
+                            <Image src="/Logo-white.png" alt="logo" width={170} height={30} priority={true} />
                         </Link>
 
                         <p>{footer.copywright}</p>
