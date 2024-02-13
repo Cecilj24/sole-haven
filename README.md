@@ -4,7 +4,7 @@
 Sole-Haven is an e-commerce platform that was inspired by my love for sneakers and it is dedicated to offering a wide range of footwear and apparel. This README provides an overview of the project, its technologies, and how to get started with the development environment.
 
 # Deployed Application URL
-[text](https://sole-haven.payloadcms.app/)
+[site](https://sole-haven.payloadcms.app/)
 
 ## Overview
 
