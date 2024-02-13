@@ -25,7 +25,11 @@ To set up the development environment and run the project locally, follow these 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/sole-haven.git
+   git clone git@github.com:Cecilj24/sole-haven.git
+
+2. cd into sole-haven
+
+3. npm run dev
 
 
 
