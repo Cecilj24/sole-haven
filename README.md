@@ -8,15 +8,15 @@ Sole-Haven is an e-commerce platform that was inspired by my love for sneakers a
 
 ## Overview
 
-Sole-Haven is built using modern web technologies to ensure a seamless user experience and efficient development process. Key technologies and services utilized in this project include:
+Sole-Haven is built using modern web technologies to ensure a seamless user experience and efficient development process. Key technologies and services utilized in this project in Features section below.
 
-- Next.js: A React framework for building server-side rendered and statically generated applications.
-- React.js: A JavaScript library for building user interfaces.
-- SCSS: A preprocessor scripting language that is compiled into CSS.
-- TypeScript: A statically typed superset of JavaScript that adds optional types.
-- Payload CMS: A headless CMS that allows content management for various parts of the website.
-- Stripe API: A set of APIs that enable payment processing within the application.
-- Cloud Implementation: Cloud services utilized for deployment, scalability, and reliability.
+P.S. - Stripe Integration only works in production mode and not deployment so please follow instructions below to test the stripe feature out. Username and Password provided down below:
+
+Email: test1@gmail.com
+Password: 1234
+
+
+
 
 ## Getting Started
 

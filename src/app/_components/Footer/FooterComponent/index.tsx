@@ -62,7 +62,6 @@ const FooterComponent = ({ footer }: { footer: Footer }) => {
                                             alt={item.link.label}
                                             className={classes.socialIcon}
 
-
                                         />
 
                                     </Button>
