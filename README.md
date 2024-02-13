@@ -10,7 +10,9 @@ Sole-Haven is an e-commerce platform that was inspired by my love for sneakers a
 
 Sole-Haven is built using modern web technologies to ensure a seamless user experience and efficient development process. Key technologies and services utilized in this project in Features section below.
 
-P.S. - Stripe Integration only works in production mode and not deployment so please follow the instructions below to test the stripe feature out. Username and Password provided down below:
+P.S. - Stripe Integration only works in production mode and not deployment so please follow the instructions below  in the "Getting Started" section to test the stripe feature out.
+
+The username and Password are provided down below for purchase testing:
 
 Email: test1@gmail.com
 Password: 1234
